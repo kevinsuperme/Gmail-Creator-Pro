@@ -1,0 +1,109 @@
+======================================================================
+Gmail Creator Pro 运行日志
+生成时间 : 2026-06-27 19:33:33
+工作目录 : E:\gmail-account-creator
+Python    : 3.14.4
+平台      : win32
+======================================================================
+---- 配置文件校验 ----
+  [OK  ] config/config.py  ()
+  [OK  ] config/password.txt  ()
+  [OK  ] data/names.txt  ()
+  [OK  ] config/5sim_config.txt  (可选)
+  [OK  ] config/user_agents.txt  (可选)
+
+---- 主运行（直接继承控制台）----
+启动时间 : 2026-06-27 19:33:33
+目标     : auto_gmail_creator.exe
+说明     : 程序输出直接显示在当前控制台，未做重定向以避免 rich GBK 崩溃
+
+（以下为程序在控制台的实际输出，未写入本日志；如需捕获请看屏幕）
+
+结束时间 : 2026-06-27 19:33:40
+退出码   : 1
+耗时     : 6.1 秒
+
+---- 崩溃诊断模式 ----
+说明：检测到程序异常退出，启动诊断模式捕获详细错误堆栈。
+      诊断模式下程序本身仍会因 rich 缺陷崩溃，但崩溃信息将被完整记录。
+
+诊断输出文件 : E:\gmail-account-creator\logs\diagnostic_20260627_193340.log
+诊断捕获内容（原始）：
+----------------------------------------------------------------------
+  
+  +----------------------- Welcome to Gmail Creator Pro ------------------------+
+  |                                                                             |
+  |                                                                             |
+  |                                                                             |
+  |  �������������[ �������[   �������[ �����������[ �����[�����[         �������������[�������������[ ���������������[ �����������[   |
+  |  �����������������[ �������������[ �������������[                                                  |
+  |  �����X�T�T�T�T�a���������[ ���������U�����X�T�T�����[�����U�����U                                          |
+  |  �����X�T�T�T�T�a�����X�T�T�����[�����X�T�T�T�T�a�����X�T�T�����[�^�T�T�����X�T�T�a�����X�T�T�T�����[�����X�T�T�����[                 |
+  |  �����U  �������[�����X���������X�����U���������������U�����U�����U        �����U     �������������X�a�����������[           |
+  |  ���������������U   �����U   �����U   �����U�������������X�a                                         |
+  |  �����U   �����U�����U�^�����X�a�����U�����X�T�T�����U�����U�����U        �����U     �����X�T�T�����[�����X�T�T�a           |
+  |  �����X�T�T�����U   �����U   �����U   �����U�����X�T�T�����[                                         |
+  |  �^�������������X�a�����U �^�T�a �����U�����U  �����U�����U���������������[   �^�������������[�����U  �����U���������������[�����U      |
+  |  �����U   �����U   �^�������������X�a�����U  �����U                                              |
+  |   �^�T�T�T�T�T�a �^�T�a     �^�T�a�^�T�a  �^�T�a�^�T�a�^�T�T�T�T�T�T�a    �^�T�T�T�T�T�a�^�T�a  �^�T�a�^�T�T�T�T�T�T�a�^�T�a      |
+  |  �^�T�a   �^�T�a    �^�T�T�T�T�T�a �^�T�a  �^�T�a                                              |
+  |                                                                             |
+  |                                                                             |
+  |  +----------------------- Welcome to Gmail Creator Pro ------------------------+
+  |                                                                             |
+  |                                                                             |
+  |                                                                             |
+  |  �������������[ �������[   �������[ �����������[ �����[�����[         �������������[�������������[ ���������������[ �����������[   |
+  |  �����������������[ �������������[ �������������[                                                  |
+  |  �����X�T�T�T�T�a���������[ ���������U�����X�T�T�����[�����U�����U                                          |
+  |  �����X�T�T�T�T�a�����X�T�T�����[�����X�T�T�T�T�a�����X�T�T�����[�^�T�T�����X�T�T�a�����X�T�T�T�����[�����X�T�T�����[                 |
+  |  �����U  �������[�����X���������X�����U���������������U�����U�����U        �����U     �������������X�a�����������[           |
+  |  ���������������U   �����U   �����U   �����U�������������X�a                                         |
+  |  �����U   �����U�����U�^�����X�a�����U�����X�T�T�����U�����U�����U        �����U     �����X�T�T�����[�����X�T�T�a           |
+  |  �����X�T�T�����U   �����U   �����U   �����U�����X�T�T�����[                                         |
+  |  �^�������������X�a�����U �^�T�a �����U�����U  �����U�����U���������������[   �^�������������[�����U  �����U���������������[�����U      |
+  |  �����U   �����U   �^�������������X�a�����U  �����U                                              |
+  |   �^�T�T�T�T�T�a �^�T�a     �^�T�a�^�T�a  �^�T�a�^�T�a�^�T�T�T�T�T�T�a    �^�T�T�T�T�T�a�^�T�a  �^�T�a�^�T�T�T�T�T�T�a�^�T�a      |
+  |  �^�T�a   �^�T�a    �^�T�T�T�T�T�a �^�T�a  �^�T�a                                              |
+  |                                                                             |
+  |                                                                             |
+  |  Traceback (most recent call last):
+    File "auto_gmail_creator.py", line 1415, in main
+    File "auto_gmail_creator.py", line 202, in show_beautiful_banner
+    File "rich\console.py", line 1697, in print
+    File "rich\console.py", line 870, in __exit__
+    File "rich\console.py", line 826, in _exit_buffer
+    File "rich\console.py", line 2038, in _check_buffer
+    File "rich\console.py", line 2074, in _write_buffer
+    File "rich\_windows_renderer.py", line 17, in legacy_windows_render
+    File "rich\_win32_console.py", line 441, in write_styled
+    File "rich\_win32_console.py", line 402, in write_text
+  UnicodeEncodeError: 'gbk' codec can't encode character '\u2728' in position 0: illegal multibyte sequence
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "auto_gmail_creator.py", line 1537, in <module>
+    File "auto_gmail_creator.py", line 1524, in main
+    File "rich\console.py", line 1697, in print
+    File "rich\console.py", line 870, in __exit__
+    File "rich\console.py", line 826, in _exit_buffer
+    File "rich\console.py", line 2038, in _check_buffer
+    File "rich\console.py", line 2074, in _write_buffer
+    File "rich\_windows_renderer.py", line 17, in legacy_windows_render
+    File "rich\_win32_console.py", line 441, in write_styled
+    File "rich\_win32_console.py", line 402, in write_text
+  UnicodeEncodeError: 'gbk' codec can't encode character '\u2728' in position 0: illegal multibyte sequence
+  [PYI-38120:ERROR] Failed to execute script 'auto_gmail_creator' due to unhandled exception!
+----------------------------------------------------------------------
+
+
+======================================================================
+运行总结 / RUN SUMMARY
+======================================================================
+结束时间       : 2026-06-27 19:33:46
+最终退出码     : 1
+是否崩溃       : 是
+是否执行诊断   : 是
+备注           : 已通过诊断模式捕获崩溃堆栈，详见日志「崩溃诊断模式」段落
+======================================================================

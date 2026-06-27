@@ -3,9 +3,9 @@
 # Keep this file separate from the main script for easier obfuscation
 
 # Account Configuration
-YOUR_BIRTHDAY = "2 4 1950"  # Format: "month day year"
+YOUR_BIRTHDAY = "11 26 2000"  # Random generated
 YOUR_GENDER = "1"  # 1=Male, 2=Female, 3=Other
-YOUR_PASSWORD = ""  # Leave empty to read from password.txt
+YOUR_PASSWORD = ""  # Leave empty for random strong password
 
 # 5sim API Configuration
 FIVESIM_API_KEY = ""  # Enter your 5sim API key here (or leave empty to read from 5sim_config.txt)

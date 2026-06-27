@@ -1,0 +1,89 @@
+======================================================================
+Gmail Creator Pro 运行日志
+生成时间 : 2026-06-27 19:16:11
+工作目录 : E:\gmail-account-creator
+Python    : 3.14.4
+平台      : win32
+======================================================================
+[19:16:12.819] [OUT] +----------------------- Welcome to Gmail Creator Pro ------------------------+
+[19:16:12.820] [OUT] |                                                                             |
+[19:16:12.820] [OUT] |                                                                             |
+[19:16:12.820] [OUT] |                                                                             |
+[19:16:12.821] [OUT] |  �������������[ �������[   �������[ �����������[ �����[�����[         �������������[�������������[ ���������������[ �����������[   |
+[19:16:12.821] [OUT] |  �����������������[ �������������[ �������������[                                                  |
+[19:16:12.821] [OUT] |  �����X�T�T�T�T�a���������[ ���������U�����X�T�T�����[�����U�����U                                          |
+[19:16:12.821] [OUT] |  �����X�T�T�T�T�a�����X�T�T�����[�����X�T�T�T�T�a�����X�T�T�����[�^�T�T�����X�T�T�a�����X�T�T�T�����[�����X�T�T�����[                 |
+[19:16:12.822] [OUT] |  �����U  �������[�����X���������X�����U���������������U�����U�����U        �����U     �������������X�a�����������[           |
+[19:16:12.822] [OUT] |  ���������������U   �����U   �����U   �����U�������������X�a                                         |
+[19:16:12.822] [OUT] |  �����U   �����U�����U�^�����X�a�����U�����X�T�T�����U�����U�����U        �����U     �����X�T�T�����[�����X�T�T�a           |
+[19:16:12.822] [ERR] Traceback (most recent call last):
+[19:16:12.822] [OUT] |  �����X�T�T�����U   �����U   �����U   �����U�����X�T�T�����[                                         |
+[19:16:12.823] [OUT] |  �^�������������X�a�����U �^�T�a �����U�����U  �����U�����U���������������[   �^�������������[�����U  �����U���������������[�����U      |
+[19:16:12.823] [OUT] |  �����U   �����U   �^�������������X�a�����U  �����U                                              |
+[19:16:12.823] [ERR]   File "auto_gmail_creator.py", line 1415, in main
+[19:16:12.824] [OUT] |   �^�T�T�T�T�T�a �^�T�a     �^�T�a�^�T�a  �^�T�a�^�T�a�^�T�T�T�T�T�T�a    �^�T�T�T�T�T�a�^�T�a  �^�T�a�^�T�T�T�T�T�T�a�^�T�a      |
+[19:16:12.824] [OUT] |  �^�T�a   �^�T�a    �^�T�T�T�T�T�a �^�T�a  �^�T�a                                              |
+[19:16:12.824] [ERR]   File "auto_gmail_creator.py", line 202, in show_beautiful_banner
+[19:16:12.825] [OUT] |                                                                             |
+[19:16:12.825] [ERR]   File "rich\console.py", line 1697, in print
+[19:16:12.825] [OUT] |                                                                             |
+[19:16:12.825] [ERR]   File "rich\console.py", line 870, in __exit__
+[19:16:12.826] [ERR]   File "rich\console.py", line 826, in _exit_buffer
+[19:16:12.826] [OUT] |  +----------------------- Welcome to Gmail Creator Pro ------------------------+
+[19:16:12.827] [OUT] |                                                                             |
+[19:16:12.827] [OUT] |                                                                             |
+[19:16:12.827] [ERR]   File "rich\console.py", line 2038, in _check_buffer
+[19:16:12.828] [OUT] |                                                                             |
+[19:16:12.828] [ERR]   File "rich\console.py", line 2074, in _write_buffer
+[19:16:12.828] [OUT] |  �������������[ �������[   �������[ �����������[ �����[�����[         �������������[�������������[ ���������������[ �����������[   |
+[19:16:12.829] [ERR]   File "rich\_windows_renderer.py", line 17, in legacy_windows_render
+[19:16:12.829] [OUT] |  �����������������[ �������������[ �������������[                                                  |
+[19:16:12.829] [ERR]   File "rich\_win32_console.py", line 441, in write_styled
+[19:16:12.830] [OUT] |  �����X�T�T�T�T�a���������[ ���������U�����X�T�T�����[�����U�����U                                          |
+[19:16:12.830] [ERR]   File "rich\_win32_console.py", line 402, in write_text
+[19:16:12.830] [OUT] |  �����X�T�T�T�T�a�����X�T�T�����[�����X�T�T�T�T�a�����X�T�T�����[�^�T�T�����X�T�T�a�����X�T�T�T�����[�����X�T�T�����[                 |
+[19:16:12.830] [ERR] UnicodeEncodeError: 'gbk' codec can't encode character '\u2728' in position 0: illegal multibyte sequence
+[19:16:12.831] [OUT] |  �����U  �������[�����X���������X�����U���������������U�����U�����U        �����U     �������������X�a�����������[           |
+[19:16:12.831] [ERR] 
+[19:16:12.831] [OUT] |  ���������������U   �����U   �����U   �����U�������������X�a                                         |
+[19:16:12.831] [ERR] During handling of the above exception, another exception occurred:
+[19:16:12.832] [OUT] |  �����U   �����U�����U�^�����X�a�����U�����X�T�T�����U�����U�����U        �����U     �����X�T�T�����[�����X�T�T�a           |
+[19:16:12.832] [ERR] 
+[19:16:12.832] [OUT] |  �����X�T�T�����U   �����U   �����U   �����U�����X�T�T�����[                                         |
+[19:16:12.833] [ERR] Traceback (most recent call last):
+[19:16:12.833] [OUT] |  �^�������������X�a�����U �^�T�a �����U�����U  �����U�����U���������������[   �^�������������[�����U  �����U���������������[�����U      |
+[19:16:12.833] [ERR]   File "auto_gmail_creator.py", line 1537, in <module>
+[19:16:12.833] [OUT] |  �����U   �����U   �^�������������X�a�����U  �����U                                              |
+[19:16:12.834] [ERR]   File "auto_gmail_creator.py", line 1524, in main
+[19:16:12.834] [OUT] |   �^�T�T�T�T�T�a �^�T�a     �^�T�a�^�T�a  �^�T�a�^�T�a�^�T�T�T�T�T�T�a    �^�T�T�T�T�T�a�^�T�a  �^�T�a�^�T�T�T�T�T�T�a�^�T�a      |
+[19:16:12.834] [ERR]   File "rich\console.py", line 1697, in print
+[19:16:12.834] [OUT] |  �^�T�a   �^�T�a    �^�T�T�T�T�T�a �^�T�a  �^�T�a                                              |
+[19:16:12.835] [ERR]   File "rich\console.py", line 870, in __exit__
+[19:16:12.835] [OUT] |                                                                             |
+[19:16:12.836] [OUT] |                                                                             |
+[19:16:12.835] [ERR]   File "rich\console.py", line 826, in _exit_buffer
+[19:16:12.836] [ERR]   File "rich\console.py", line 2038, in _check_buffer
+[19:16:12.836] [ERR]   File "rich\console.py", line 2074, in _write_buffer
+[19:16:12.837] [ERR]   File "rich\_windows_renderer.py", line 17, in legacy_windows_render
+[19:16:12.837] [ERR]   File "rich\_win32_console.py", line 441, in write_styled
+[19:16:12.837] [ERR]   File "rich\_win32_console.py", line 402, in write_text
+[19:16:12.837] [ERR] UnicodeEncodeError: 'gbk' codec can't encode character '\u2728' in position 0: illegal multibyte sequence
+[19:16:12.838] [ERR] [PYI-41160:ERROR] Failed to execute script 'auto_gmail_creator' due to unhandled exception!
+[19:16:17.909] [OUT] |  
+
+======================================================================
+运行总结 / RUN SUMMARY
+======================================================================
+结束时间   : 2026-06-27 19:16:17
+退出码     : 1
+是否崩溃   : 是
+备注       : 进程异常退出（非零退出码 1）
+疑似错误行 : 共 6 条（详见上文日志）
+----------------------------------------------------------------------
+[19:16:12.822] [ERR] Traceback (most recent call last):
+[19:16:12.830] [ERR] UnicodeEncodeError: 'gbk' codec can't encode character '\u2728' in position 0: illegal multibyte sequence
+[19:16:12.831] [ERR] During handling of the above exception, another exception occurred:
+[19:16:12.833] [ERR] Traceback (most recent call last):
+[19:16:12.837] [ERR] UnicodeEncodeError: 'gbk' codec can't encode character '\u2728' in position 0: illegal multibyte sequence
+[19:16:12.838] [ERR] [PYI-41160:ERROR] Failed to execute script 'auto_gmail_creator' due to unhandled exception!
+======================================================================
